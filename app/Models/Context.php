@@ -581,6 +581,30 @@ final class FreshRSS_Context {
 		return false;
 	}
 
+	/**
+	 * Determine if the lazy loading for images should be enabled for the client
+	 */
+	public static function isLazyLoading(): bool {
+		if (!FreshRSS_Context::userConf()->lazyload) {
+			return false;
+		}
+		$ip = connectionRemoteAddress();
+		if ($ip === '') {
+			return true;
+		}
+
+		$bypassed_nets = explode("\n", FreshRSS_Context::userConf()->lazyload_bypass_networks);
+		$bitsOfIp = ipToBits($ip);
+
+		foreach ($bypassed_nets as $bypassed_net) {
+			if (checkCIDR($bitsOfIp, trim($bypassed_net))) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+
 	public static function defaultTimeZone(): string {
 		$timezone = ini_get('date.timezone');
 		return $timezone != false ? $timezone : 'UTC';

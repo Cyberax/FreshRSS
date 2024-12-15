@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Kategorien & Feeds ohne ungelesene Artikel verstecken (funktioniert nicht mit der Einstellung „Alle Artikel zeigen“)',
 		'img_with_lazyload' => 'Verwende die „träges Laden“-Methode zum Laden von Bildern',
 		'jump_next' => 'springe zum nächsten ungelesenen Geschwisterelement',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Markieren Sie aktualisierte Artikel als ungelesen',
 		'number_divided_when_reader' => 'Geteilt durch 2 in der Lese-Ansicht.',
 		'read' => array(

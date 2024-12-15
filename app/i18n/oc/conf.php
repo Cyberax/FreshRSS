@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Rescondre las categorias & fluxes sens articles pas legits (fonciona pas amb la configuracion « Mostrar totes los articles »)',
 		'img_with_lazyload' => 'Utilizar lo mòde “cargament tardiu” pels imatges',
 		'jump_next' => 'sautar al vesin venent pas legit',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Marcar los articles actualizats coma pas legits',
 		'number_divided_when_reader' => 'Devisat per 2 dins la vista de lectura.',
 		'read' => array(

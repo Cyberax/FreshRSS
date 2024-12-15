@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Cacher les catégories & flux sans article non-lu (ne fonctionne pas avec la configuration « Afficher tous les articles »)',
 		'img_with_lazyload' => 'Utiliser le mode <em>chargement différé</em> pour les images',
 		'jump_next' => 'sauter au prochain voisin non lu',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Marquer les articles mis à jour comme non-lus',
 		'number_divided_when_reader' => 'Divisé par 2 dans la vue de lecture.',
 		'read' => array(

@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => '隐藏没有未读文章的分类和订阅源（启用“显示所有文章”后不生效）',
 		'img_with_lazyload' => '延迟加载图片',
 		'jump_next' => '跳转到下一未读项',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => '将有更新的文章设为未读',
 		'number_divided_when_reader' => '阅读视图中显示一半',
 		'read' => array(

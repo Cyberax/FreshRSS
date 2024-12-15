@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Piilota luokat ja syötteet, joissa ei ole lukemattomia artikkeleita (ei toimi jos “Näytä kaikki artikkelit” on määritetty)',
 		'img_with_lazyload' => 'Lataa kuvat <em>vain tarvittaessa</em>',
 		'jump_next' => 'siirry seuraavaan lukemattomaan artikkeliin samassa näkymässä',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Merkitse päivitetyt artikkelit lukemattomiksi',
 		'number_divided_when_reader' => 'Jaa kahdella lukunäkymässä.',
 		'read' => array(

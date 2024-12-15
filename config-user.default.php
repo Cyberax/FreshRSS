@@ -44,6 +44,7 @@ return array (
 	'hide_read_feeds' => true,
 	'onread_jump_next' => true,
 	'lazyload' => true,
+	'lazyload_bypass_networks' => '',
 	'sides_close_article' => false,
 	'sticky_post' => true,
 	'reading_confirm' => false,

@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Hide categories & feeds with no unread articles (does not work with “Show all articles” configuration)',	// TODO
 		'img_with_lazyload' => 'Use <em>lazy load</em> mode to load pictures',	// TODO
 		'jump_next' => 'jump to next unread sibling',	// TODO
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Mark updated articles as unread',	// TODO
 		'number_divided_when_reader' => 'Divide by 2 in the reading view.',	// TODO
 		'read' => array(

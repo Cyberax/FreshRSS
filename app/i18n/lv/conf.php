@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Paslēpt kategorijas un barotnes, kurās nav nelasītu rakstu (nedarbojas ar konfigurāciju "Rādīt visus rakstus")',
 		'img_with_lazyload' => 'Izmantot <em>slinkās ielādes</em> režīmu, lai ielādētu attēlus',
 		'jump_next' => 'pāriet uz nākamo nelasīto radinieku',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Atjauninātos rakstus atzīmēt kā nelasītus',
 		'number_divided_when_reader' => 'Dalīt ar 2 lasīšanas skatā.',
 		'read' => array(

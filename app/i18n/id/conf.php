@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Sembunyikan kategori & feed yang tidak memiliki artikel belum dibaca (tidak berlaku untuk konfigurasi “Tampilkan semua artikel”)',
 		'img_with_lazyload' => 'Gunakan mode “lazy load” untuk memuat gambar',
 		'jump_next' => 'loncat ke saudara yang belum dibaca berikutnya',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Tandai artikel yang diperbarui sebagai belum dibaca',
 		'number_divided_when_reader' => 'Bagi dua dalam tampilan baca.',
 		'read' => array(

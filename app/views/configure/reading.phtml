@@ -394,6 +394,14 @@
 						<noscript> — <strong><?= _t('gen.js.should_be_activated') ?></strong></noscript>
 					</label>
 				</div>
+
+				<label class="group-name" for="lazyload_bypass_networks"><?= _t('conf.reading.lazyload_bypass_networks') ?></label>
+				<div class="group-controls">
+					<textarea name="lazyload_bypass_networks" id="lazyload_bypass_networks" class="w100"><?php
+						echo FreshRSS_Context::userConf()->lazyload_bypass_networks
+						?></textarea>
+					<p class="help"><?= _i('help') ?> <?= _t('conf.reading.lazyload_bypass_networks_help') ?></p>
+				</div>
 			</div>
 		</fieldset>
 

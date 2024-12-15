@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Skrýt kategorie a kanály bez nepřečtených článků (nefunguje s nastavením „Zobrazit všechny články“)',
 		'img_with_lazyload' => 'Použít režim „líné načítání“ pro načítaní obrázků',
 		'jump_next' => 'skočit na další nepřečtenou položku na stejné úrovni',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Označit aktualizované články jako nepřečtené',
 		'number_divided_when_reader' => 'Děleno dvěma v zobrazení pro čtení.',
 		'read' => array(

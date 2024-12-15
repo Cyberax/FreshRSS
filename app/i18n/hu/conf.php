@@ -240,6 +240,8 @@ return array(
 		'hide_read_feeds' => 'Rejtse el a kategóriákat és hírforrásokat ahol nincs olvasatlan cikk (nem működik egyszerre a „Minden cikk megjelenítése” beállítással)',
 		'img_with_lazyload' => 'Használjon <em>lazy load</em> módot a képek betöltésére',
 		'jump_next' => 'ugorjon a következő olvasatlan testvérre',
+		'lazyload_bypass_networks' => 'Bypass lazy load for these networks',	// TODO
+		'lazyload_bypass_networks_help' => 'Enter one CIDR per line. Example: 192.168.0.0/16',	// TODO
 		'mark_updated_article_unread' => 'Frissített cikkek megjelölése olvasatlanként',
 		'number_divided_when_reader' => 'Olvasó módban 2-vel osztható szám.',
 		'read' => array(

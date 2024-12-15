@@ -33,6 +33,7 @@ declare(strict_types=1);
  * @property string $language
  * @property string $timezone
  * @property bool $lazyload
+ * @property string $lazyload_bypass_networks
  * @property string $mail_login
  * @property bool $mark_updated_article_unread
  * @property array<string,bool|int> $mark_when
